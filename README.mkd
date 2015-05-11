@@ -2,7 +2,7 @@ vimwiki-ledger
 ==========
 
 This is the ledger filetype for Vim.
-The fork is for development towards usage with vimwiki and taskwarrior, so that ledger and timelog entries can be used in a personal wiki. The taskwarrior connection is because it's a task _before_ it becomes a ledger-related event. 
+The fork is for development towards usage with vimwiki and taskwarrior, so that ledger and timelog entries can be used in a personal wiki. The taskwarrior connection is because it's often task _before_ it becomes a ledger-related event. 
 
 With this plugin (working, which it *is not* now) accounting-related transactions and timelogs will be easy to create. Task information will only have to be entered once. Marking a task as status:completed could trigger the ledger entry process, which uses task metadata to prepopulate the ledger entry. The task/ wiki/ ledger records, in three or more different files, stay connected through uuids and back-link-annotations. 
 
